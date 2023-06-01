@@ -2,8 +2,9 @@ public class cliente {
     private String nombre;
     private String direccion;
     private int edad;
+    private int presupuestoEnDolares;
 
-    public cliente(String nombre, String direccion, int edad) {
+    public cliente(String nombre, String direccion, int edad, int presupuestoEnDolares) {
         this.nombre = nombre;
         this.direccion = direccion;
         this.edad = edad;
@@ -29,5 +30,11 @@ public class cliente {
     }
     public void setEdad(int edad){
         this.edad = edad;
+    }
+    public int GetPresupuestoEnDolares(){
+        return presupuestoEnDolares;
+    }
+    public void setPresupuestoEnDolares(int presupuestoEnDolares){
+        this.presupuestoEnDolares = presupuestoEnDolares;
     }
 }

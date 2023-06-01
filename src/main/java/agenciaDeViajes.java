@@ -28,7 +28,7 @@ public class agenciaDeViajes {
 
     public static void main(String[] args) {
         agenteDeViajes agente1 = new agenteDeViajes("Juan", "Vaciones para familia", 3);
-        cliente cliente1 = new cliente("María", "Ex linea ferrea sin numero", 19);
+        cliente cliente1 = new cliente("María", "Ex linea ferrea sin numero", 19, 1000);
 
         agenciaDeViajes agencia = new agenciaDeViajes();
         agencia.agregarAgente(agente1);
