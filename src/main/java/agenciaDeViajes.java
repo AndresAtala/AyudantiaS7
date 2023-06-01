@@ -27,7 +27,7 @@ public class agenciaDeViajes {
     }
 
     public static void main(String[] args) {
-        agenteDeViajes agente1 = new agenteDeViajes("Juan", "Vaciones para familia");
+        agenteDeViajes agente1 = new agenteDeViajes("Juan", "Vaciones para familia", 3);
         cliente cliente1 = new cliente("María", "Ex linea ferrea sin numero", 19);
 
         agenciaDeViajes agencia = new agenciaDeViajes();
